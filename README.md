@@ -9,6 +9,7 @@ The repository contains following files.
 
 ### Tagged dataset
 For each of the three tasks, we provide a small, medium, and large benchmark, which differ by the thresholds used during data cleaning. The smaller benchmarks use stricter thresholds and hence provide higher agreements between the participants, whereas the larger benchmarks offer more pairs.
+
 |size|Relatedn.|Simil.|Context. simil.|
 |:-----:|:----:|:-----:|:----:|
 |Small  |  167|167|115 |
