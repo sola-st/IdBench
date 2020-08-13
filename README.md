@@ -45,7 +45,7 @@ IdBench is build based on a survey of 500 software developers. The following giv
 
 The following instructions were given to participants for the direct survey, which asks developers about the relatedness and similarity of pairs of identifiers:
 
-![](https://raw.githubusercontent.com/sola-st/IdBench/master/images/instructions_direct_survey.png | width=300)
+![](https://raw.githubusercontent.com/sola-st/IdBench/master/images/instructions_direct_survey.png)
 
 Here is an example of a question asked during the direct survey:
 
