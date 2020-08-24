@@ -40,6 +40,11 @@ The following are the best found configurations:
 |w2v-cbow |    5 |    100  |   15  |   0.1  |   3|
 |w2v-sg    | 5    | 50    | 15 |    0.1    | 3| 
 
+## Supplementary dataset
+In addition to the three benchmark datasets, we provide two supplementary files providing additional information regarding the identifiers present in the Idbench.
+1. [Identifier_cross_lang_freq_stats.csv](identifier_cross_lang_freq_stats.csv) provides statistics of number of times the selected identifiers occur in JavaScript, Python and Java.
+2. [Identifier_role_stats.csv](identifier_role_stats.csv) provides information on how often an identifier appears as a function name, variable name or property name. 
+
 ## Survey Conducted to Build the Dataset
 IdBench is build based on a survey of 500 software developers. The following gives shows the instructions shown to participants, examples of questions asked, and details about the distribution of participants.
 
