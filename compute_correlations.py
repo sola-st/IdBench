@@ -123,9 +123,9 @@ def plot_correlations(ys_large, ys_medium, ys_small, out_file, labels):
 
     fig, ax = plt.subplots()
     plt.setp(ax.xaxis.get_majorticklabels(), rotation=90)
-    ax.bar(x - width, ys_large, width, label='Large bm.')
-    ax.bar(x, ys_medium, width, label='Medium bm.')
-    ax.bar(x + width, ys_small, width, label='Small bm.')
+    ax.bar(x - width, ys_large, width, label='Large benchm.')
+    ax.bar(x, ys_medium, width, label='Medium benchm.')
+    ax.bar(x + width, ys_small, width, label='Small benchm.')
 
     ax.set_ylim([0.0, 0.85])
     ax.set_yticks(np.arange(0, 0.9, step=0.2))

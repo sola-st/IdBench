@@ -1,7 +1,7 @@
 # IdBench
 IdBench is a benchmark for evaluating to what extent word embeddings of source code identifiers represent semantic relatedness and similarity. The dataset contains identifier pairs annotated with similarity, relatedness and contextual similarity ratings tagged by developers. IdBench is an effort to provide a gold standard to guide the development of novel source code embeddings. 
 
-See our ICSE'21 paper for details:
+See our [ICSE'21 paper](http://software-lab.org/publications/icse2021_IdBench.pdf) for details:
 ```
 @InProceedings{IdBenchICSE2021,
   author    = {Yaza Wainakh and Moiz Rauf and Michael Pradel},
