@@ -65,12 +65,12 @@ Second, run the compute_correlations.py script to compute the overall correlatio
 
  The script will produce plots similar to those in the paper. To also compute the combined embedding, pass the `--combined` flag.
 
+## Supplementary dataset
+In addition to the three benchmark datasets, we provide two supplementary files providing additional information regarding the identifiers in Idbench.
+1. [Identifier_cross_lang_freq_stats.csv](identifier_cross_lang_freq_stats.csv) provides statistics of the number of times the selected identifiers occur in JavaScript, Python and Java corpora.
+2. [Identifier_role_stats.csv](identifier_role_stats.csv) provides information on how often an identifier appears as a function name, variable name, or property name. 
 
-
-
-
-## Survey Conducted to Build the Benchmark
-
+## Survey Conducted to Build the Dataset
 IdBench is build based on a survey of 500 software developers. The following gives shows the instructions shown to participants, examples of questions asked, and details about the distribution of participants.
 
 The following instructions were given to participants for the direct survey, which asks developers about the relatedness and similarity of pairs of identifiers:
