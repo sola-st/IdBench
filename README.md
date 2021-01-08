@@ -1,7 +1,7 @@
 # IdBench
 IdBench is a benchmark for evaluating to what extent word embeddings of source code identifiers represent semantic relatedness and similarity. The dataset contains identifier pairs annotated with similarity, relatedness and contextual similarity ratings tagged by developers. IdBench is an effort to provide a gold standard to guide the development of novel source code embeddings. 
 
-See our **XXX ICSE'21 paper XXX** for details:
+See our ICSE'21 paper for details:
 ```
 @InProceedings{IdBenchICSE2021,
   author    = {Yaza Wainakh and Moiz Rauf and Michael Pradel},
@@ -33,7 +33,7 @@ We evaluate existing embedding methods to see how well they represent the relate
 2. Sub-word extension of word2vec FastText (“_FT_cbow_” and “_FT_sg_”)
 3. Embeddings trained using tree-based representation of code (“_path-based_”)
 
-To use the embeddings, download **XXX this release XXX** of the trained models. See `pretrained_embeddings.py` for a demo of how to load and query the embeddings.
+To use the embeddings, download [this release of the trained models](https://github.com/sola-st/IdBench/releases/download/icse2021/trained_embeddings.tar.gz). See `pretrained_embeddings.py` for a demo of how to load and query the embeddings.
 
 
 ### Hyperparameters
