@@ -1,0 +1,5 @@
+.vscode
+myenv
+trained_embeddings
+*.swp
+*~
