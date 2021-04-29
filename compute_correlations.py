@@ -184,14 +184,18 @@ def read_and_clean_pairs(args):
         new_column_headers = list(pairs.columns[12:])
         size_to_additional_embeddings[size] = new_column_headers
 
-        def row_filter(r):
-            for col_name in pairs.columns:
-                if r[col_name] == "NAN":
+        def get_row_filter(kind):
+            def row_filter(r):
+                if r[kind] == "NAN":
                     return False
-            return True
+                for approach in approaches:
+                    if r[approach] == "NAN":
+                        return False
+                return True
+            return row_filter
 
         for kind in kinds:
-            filtered_pairs = pairs[pairs.apply(row_filter, axis=1)]
+            filtered_pairs = pairs[pairs.apply(get_row_filter(kind), axis=1)]
             size_to_kind_to_pairs[size][kind] = filtered_pairs
 
     # ensure that if new embeddings added, they are added for all three sizes
